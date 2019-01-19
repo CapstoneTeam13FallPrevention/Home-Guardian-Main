@@ -15,6 +15,7 @@
 		0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */; };
 		0591DFB221F3883800A4EC03 /* Home_GuardianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */; };
 		0591DFBD21F3883800A4EC03 /* Home_GuardianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */; };
+		0591DFCB21F3AD6200A4EC03 /* PatientBegin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFCA21F3AD6200A4EC03 /* PatientBegin.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0591DFB821F3883800A4EC03 /* Home GuardianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home GuardianUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianUITests.swift; sourceTree = "<group>"; };
 		0591DFBE21F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0591DFCA21F3AD6200A4EC03 /* PatientBegin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatientBegin.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */,
 				0591DFA821F3883800A4EC03 /* Info.plist */,
 				0591DFA021F3883500A4EC03 /* Home_Guardian.xcdatamodeld */,
+				0591DFCA21F3AD6200A4EC03 /* PatientBegin.storyboard */,
 			);
 			path = "Home Guardian";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0591DFCB21F3AD6200A4EC03 /* PatientBegin.storyboard in Resources */,
 				0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */,
 				0591DFA421F3883800A4EC03 /* Assets.xcassets in Resources */,
 				0591DF9F21F3883500A4EC03 /* Main.storyboard in Resources */,

@@ -29,12 +29,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="KFd-WB-rdz">
-                                <rect key="frame" x="67" y="236" width="240" height="223"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="KFd-WB-rdz" secondAttribute="height" multiplier="240:240" id="EjB-w4-rUw"/>
-                                    <constraint firstAttribute="width" secondItem="KFd-WB-rdz" secondAttribute="height" multiplier="240:240" id="O1V-rf-kZk"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="KFd-WB-rdz">
+                                <rect key="frame" x="67" y="203" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
