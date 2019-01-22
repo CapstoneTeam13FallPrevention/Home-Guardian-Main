@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main Page" id="BYZ-38-t0r" customClass="ViewController" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,26 +64,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LKx-Cx-aqt"/>
+                    <navigationItem key="navigationItem" title="Main Page" id="LKx-Cx-aqt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1631.8840579710147" y="-207.06521739130437"/>
         </scene>
-        <!--View Controller-->
+        <!--Patient Begin-->
         <scene sceneID="gma-nO-XYn">
             <objects>
-                <viewController id="rii-IW-sjZ" sceneMemberID="viewController">
+                <viewController title="Patient Begin" id="rii-IW-sjZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6IF-eh-Jnh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medical Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kM2-NY-7tF">
-                                <rect key="frame" x="73" y="84" width="269" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clinic:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQS-EI-zam">
                                 <rect key="frame" x="46" y="173" width="47" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -107,23 +101,18 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="4d5-vZ-nZa" firstAttribute="trailing" secondItem="kM2-NY-7tF" secondAttribute="trailing" constant="72" id="l8J-iY-amI"/>
-                            <constraint firstItem="kM2-NY-7tF" firstAttribute="top" secondItem="4d5-vZ-nZa" secondAttribute="top" constant="20" id="u08-VL-0MQ"/>
-                            <constraint firstItem="kM2-NY-7tF" firstAttribute="leading" secondItem="4d5-vZ-nZa" secondAttribute="leading" constant="73" id="xsX-GB-n7K"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4d5-vZ-nZa"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7Zz-fj-exP"/>
+                    <navigationItem key="navigationItem" title="Clinic Info" id="7Zz-fj-exP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VkK-ji-Zr6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2736.231884057971" y="-468.75000000000006"/>
         </scene>
-        <!--View Controller-->
+        <!--Therapist Begin-->
         <scene sceneID="VKN-Ws-gnb">
             <objects>
-                <viewController id="P3v-UC-EWD" sceneMemberID="viewController">
+                <viewController title="Therapist Begin" id="P3v-UC-EWD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nxf-iu-XbH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,15 +133,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Af2-Md-Vrw"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Clinic Info" id="73q-uv-Q9D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qtv-b6-y4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2729" y="281"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--App Navigator-->
         <scene sceneID="ggq-Gh-k9G">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rr0-Dd-evw" sceneMemberID="viewController">
+                <navigationController title="App Navigator" automaticallyAdjustsScrollViewInsets="NO" id="Rr0-Dd-evw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="79x-dZ-Vy1">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
