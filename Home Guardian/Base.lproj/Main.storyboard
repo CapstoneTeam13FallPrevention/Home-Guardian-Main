@@ -73,7 +73,7 @@
         <!--Patient Begin-->
         <scene sceneID="gma-nO-XYn">
             <objects>
-                <viewController title="Patient Begin" id="rii-IW-sjZ" sceneMemberID="viewController">
+                <viewController title="Patient Begin" id="rii-IW-sjZ" customClass="PatientBegin" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6IF-eh-Jnh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
