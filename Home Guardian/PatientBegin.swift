@@ -13,8 +13,14 @@ class PatientBegin: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
     @IBOutlet weak var clinicTextBox: UITextField!
     @IBOutlet weak var clinicDropDown: UIPickerView!
     
+    @IBOutlet weak var therapistTextBox: UITextField!
+    @IBOutlet weak var therapistDropDown: UIPickerView!
+    
     //Clinic List
     var clinicList = ["Mercy","Sparks"]
+    
+    //Therapist List
+    var therapistList = ["Adam","Bob"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
