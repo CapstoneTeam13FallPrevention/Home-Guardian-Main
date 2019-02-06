@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PatientBegin: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class PatientBegin: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var clinicTextBox: UITextField!
     @IBOutlet weak var clinicDropDown: UIPickerView!
@@ -33,23 +33,41 @@ class PatientBegin: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
     }
     
     public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
+        var countrows: Int = clinicList.count
+        if pickerView == therapistDropDown {
+            countrows = therapistList.count
+        }
         
-        return clinicList.count
+        return countrows
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
+        if pickerView == clinicDropDown {
+            let titleRow = clinicList[row]
+            return titleRow
+        }
+        
+        else if pickerView == therapistDropDown {
+            let titleRow = therapistList[row]
+            return titleRow
+        }
+        
         self.view.endEditing(true)
-        return clinicList[row]
+        return ""
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-        self.clinicTextBox.text = self.clinicList[row]
-        self.clinicDropDown.isHidden = true
+        if pickerView == clinicDropDown{
+            self.clinicTextBox.text = self.clinicList[row]
+            self.clinicDropDown.isHidden = true
+        }
+        else if pickerView == therapistDropDown{
+            self.therapistTextBox.text = self.therapistList[row]
+            self.therapistDropDown.isHidden = true        }
     }
     
-    func textFieldDidBeginEditing(textField: UITextField) {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
         
         if textField == self.clinicTextBox {
             self.clinicDropDown.isHidden = false
@@ -57,6 +75,13 @@ class PatientBegin: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
             
             textField.endEditing(true)
         }
+        else if (textField == self.therapistTextBox){
+            self.therapistDropDown.isHidden = false
+            
+            textField.endEditing(true)
+            
+        }
+        
     }
     /*
     // MARK: - Navigation
