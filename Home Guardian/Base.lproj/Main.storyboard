@@ -219,7 +219,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="NB0-Io-70r" kind="show" id="IxA-Rb-KaF"/>
+                                    <segue destination="8QE-XJ-bFu" kind="show" id="9q6-5P-Cur"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-oO-c0E">
@@ -237,21 +237,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jhf-3M-fA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3597" y="-469"/>
-        </scene>
-        <!--User Agreement-->
-        <scene sceneID="Xcj-k0-dxg">
-            <objects>
-                <viewController title="User Agreement" id="NB0-Io-70r" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UdI-w5-EGj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="AYv-UE-PWb"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MWh-dW-L7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4387" y="-471"/>
         </scene>
         <!--Therapist Begin-->
         <scene sceneID="VKN-Ws-gnb">
@@ -300,6 +285,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LjH-NV-0Yx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="693.60000000000002" y="-206.44677661169416"/>
+        </scene>
+        <!--User Agreement-->
+        <scene sceneID="gDr-s4-soL">
+            <objects>
+                <viewController title="User Agreement" id="8QE-XJ-bFu" customClass="UserAgreementControl" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dqi-Ao-aTf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uas-s9-9hq">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n2U-0n-vgI">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YrE-BP-OnF">
+                                                <rect key="frame" x="37" y="37" width="317" height="181"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49v-lw-fHv">
+                                <rect key="frame" x="57" y="897" width="300" height="83"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="NPd-nC-xeH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="I Agree"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n2U-0n-vgI" firstAttribute="width" secondItem="Dqi-Ao-aTf" secondAttribute="width" id="0zI-1N-TqB"/>
+                            <constraint firstItem="49v-lw-fHv" firstAttribute="centerX" secondItem="Dqi-Ao-aTf" secondAttribute="centerX" constant="11" id="aAW-Ou-nSV"/>
+                            <constraint firstItem="49v-lw-fHv" firstAttribute="leading" secondItem="Dqi-Ao-aTf" secondAttribute="leading" constant="57" id="b2V-W4-g1y"/>
+                            <constraint firstAttribute="bottom" secondItem="49v-lw-fHv" secondAttribute="bottom" constant="20" id="eX2-LL-TVI"/>
+                            <constraint firstItem="49v-lw-fHv" firstAttribute="centerX" secondItem="Dqi-Ao-aTf" secondAttribute="centerX" id="jC9-7p-MKD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JnT-14-55A"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G9R-Yd-d0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4407.2463768115949" y="-470.38043478260875"/>
         </scene>
     </scenes>
 </document>
