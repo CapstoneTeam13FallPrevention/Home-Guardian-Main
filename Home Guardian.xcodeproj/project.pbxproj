@@ -15,7 +15,6 @@
 		0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */; };
 		0591DFB221F3883800A4EC03 /* Home_GuardianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */; };
 		0591DFBD21F3883800A4EC03 /* Home_GuardianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */; };
-		05DE21FD220DD6E900BB3957 /* UserAgreementControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DE21FC220DD6E900BB3957 /* UserAgreementControl.swift */; };
 		05EFC20221F7B2F9006B734F /* PatientBegin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EFC20121F7B2F9006B734F /* PatientBegin.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		0591DFB821F3883800A4EC03 /* Home GuardianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home GuardianUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianUITests.swift; sourceTree = "<group>"; };
 		0591DFBE21F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05DE21FC220DD6E900BB3957 /* UserAgreementControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementControl.swift; sourceTree = "<group>"; };
 		05EFC20121F7B2F9006B734F /* PatientBegin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientBegin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +101,6 @@
 		0591DF9821F3883500A4EC03 /* Home Guardian */ = {
 			isa = PBXGroup;
 			children = (
-				05DE21FC220DD6E900BB3957 /* UserAgreementControl.swift */,
 				0591DF9921F3883500A4EC03 /* AppDelegate.swift */,
 				0591DF9B21F3883500A4EC03 /* ViewController.swift */,
 				0591DF9D21F3883500A4EC03 /* Main.storyboard */,
@@ -267,7 +264,6 @@
 			files = (
 				0591DF9C21F3883500A4EC03 /* ViewController.swift in Sources */,
 				0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */,
-				05DE21FD220DD6E900BB3957 /* UserAgreementControl.swift in Sources */,
 				0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */,
 				05EFC20221F7B2F9006B734F /* PatientBegin.swift in Sources */,
 			);
