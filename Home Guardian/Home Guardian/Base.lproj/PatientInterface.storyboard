@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gec-IW-rRh">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController title="Patient Information" id="SNR-ha-Cr4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qSN-UU-ANX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RfE-eY-MXl">
-                                <rect key="frame" x="20" y="89" width="374" height="58"/>
+                                <rect key="frame" x="20" y="89" width="335" height="58"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
@@ -32,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FRU-eB-c4V">
-                                <rect key="frame" x="20" y="237" width="374" height="58"/>
+                                <rect key="frame" x="20" y="237" width="335" height="58"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
@@ -51,7 +51,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYe-zd-Wnh">
-                                <rect key="frame" x="20" y="633" width="374" height="83"/>
+                                <rect key="frame" x="20" y="564" width="335" height="83"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="HUS-hl-qS8"/>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-oO-c0E">
-                                <rect key="frame" x="20" y="382" width="374" height="58"/>
+                                <rect key="frame" x="20" y="382" width="335" height="58"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
@@ -489,17 +489,17 @@
             <objects>
                 <viewController title="Disclaimer" id="dEr-3o-fwx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6pU-ut-D8A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="4800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ea-Hk-UQn">
-                                <rect key="frame" x="0.0" y="20" width="414" height="1480"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="4780"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cde-cG-6kk">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="4800"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fk-8B-gAK">
-                                                <rect key="frame" x="20" y="1329" width="374" height="83"/>
+                                                <rect key="frame" x="20" y="4629" width="374" height="83"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="83" id="ORZ-FC-53N"/>
@@ -511,9 +511,9 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2g-Zn-hYp">
-                                                <rect key="frame" x="22" y="0.0" width="370" height="1000"/>
+                                                <rect key="frame" x="22" y="0.0" width="370" height="4500"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="1000" id="cba-am-1E6"/>
+                                                    <constraint firstAttribute="height" constant="4500" id="cba-am-1E6"/>
                                                     <constraint firstAttribute="width" constant="370" id="wpd-XQ-Dzu"/>
                                                 </constraints>
                                                 <mutableString key="text">Disclaimer/Liability
@@ -533,7 +533,7 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                                             <constraint firstItem="0fk-8B-gAK" firstAttribute="centerX" secondItem="cde-cG-6kk" secondAttribute="centerX" id="7a2-rv-mlq"/>
                                             <constraint firstAttribute="trailing" secondItem="0fk-8B-gAK" secondAttribute="trailing" constant="20" id="A0l-Yo-URl"/>
                                             <constraint firstItem="0fk-8B-gAK" firstAttribute="leading" secondItem="cde-cG-6kk" secondAttribute="leading" constant="20" id="ORc-J9-0uJ"/>
-                                            <constraint firstAttribute="height" constant="1500" id="YUI-Eg-dNc"/>
+                                            <constraint firstAttribute="height" constant="4800" id="YUI-Eg-dNc"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0fk-8B-gAK" secondAttribute="trailing" id="csh-Fe-aFz"/>
                                             <constraint firstItem="0fk-8B-gAK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cde-cG-6kk" secondAttribute="leading" id="lFY-we-F2F"/>
                                             <constraint firstItem="n2g-Zn-hYp" firstAttribute="centerX" secondItem="cde-cG-6kk" secondAttribute="centerX" id="onq-L5-q5w"/>
@@ -559,7 +559,7 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JcQ-OM-xMS"/>
                     </view>
-                    <size key="freeformSize" width="414" height="1500"/>
+                    <size key="freeformSize" width="414" height="4800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ghq-XL-ppU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -570,11 +570,23 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
             <objects>
                 <viewController title="Camera Controller" id="JCh-bz-2ue" customClass="CameraController" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OQX-AK-Lgv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-Gc-Nzv">
+                                <rect key="frame" x="0.0" y="623" width="336" height="44"/>
+                                <items>
+                                    <navigationItem title="Camera" id="g8D-Bw-EUB">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="jIj-hC-25W">
+                                            <connections>
+                                                <action selector="cameraAction:" destination="JCh-bz-2ue" id="0Cb-BS-U8k"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ojp-Dg-QxR">
-                                <rect key="frame" x="107" y="268" width="200" height="200"/>
+                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ojp-Dg-QxR" secondAttribute="height" multiplier="1:1" id="HAE-Ac-ei4"/>
                                 </constraints>
@@ -582,20 +594,17 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ojp-Dg-QxR" firstAttribute="leading" secondItem="JbP-KQ-wVx" secondAttribute="leading" constant="107" id="5SO-UG-Ir1"/>
-                            <constraint firstItem="ojp-Dg-QxR" firstAttribute="top" secondItem="JbP-KQ-wVx" secondAttribute="top" constant="248" id="PLP-AC-FAU"/>
-                            <constraint firstItem="JbP-KQ-wVx" firstAttribute="bottom" secondItem="ojp-Dg-QxR" secondAttribute="bottom" constant="224" id="WxK-C3-vdi"/>
-                            <constraint firstItem="JbP-KQ-wVx" firstAttribute="trailing" secondItem="ojp-Dg-QxR" secondAttribute="trailing" constant="107" id="rcb-cR-CYl"/>
+                            <constraint firstItem="EUT-Gc-Nzv" firstAttribute="leading" secondItem="OQX-AK-Lgv" secondAttribute="leading" id="CIf-Kc-Owz"/>
+                            <constraint firstItem="ojp-Dg-QxR" firstAttribute="centerY" secondItem="OQX-AK-Lgv" secondAttribute="centerY" id="IvE-Gm-XKE"/>
+                            <constraint firstItem="ojp-Dg-QxR" firstAttribute="trailing" secondItem="EUT-Gc-Nzv" secondAttribute="trailing" id="MSG-tB-vnS"/>
+                            <constraint firstAttribute="trailing" secondItem="EUT-Gc-Nzv" secondAttribute="trailing" id="Mb2-Yc-SrX"/>
+                            <constraint firstItem="ojp-Dg-QxR" firstAttribute="leading" secondItem="EUT-Gc-Nzv" secondAttribute="leading" id="Mwz-L4-coe"/>
+                            <constraint firstAttribute="bottom" secondItem="EUT-Gc-Nzv" secondAttribute="bottom" id="SMg-gz-yi1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JbP-KQ-wVx"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem systemItem="camera" id="jIj-hC-25W">
-                            <connections>
-                                <action selector="cameraAction:" destination="JCh-bz-2ue" id="0Cb-BS-U8k"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="userImage" destination="ojp-Dg-QxR" id="lMB-Uw-YY0"/>
@@ -603,24 +612,24 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUG-Vj-C46" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10279" y="-469"/>
+            <point key="canvasLocation" x="10276.8115942029" y="-470.38043478260875"/>
         </scene>
         <!--User Agreement-->
         <scene sceneID="XEb-KG-Hue">
             <objects>
                 <viewController title="User Agreement" id="fA1-hg-AeA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kzg-wH-ohI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="7000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afA-9n-MZ0">
-                                <rect key="frame" x="0.0" y="20" width="414" height="1480"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="6980"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-zH-sWj">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="7000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWh-Cp-l7f">
-                                                <rect key="frame" x="20" y="1329" width="374" height="83"/>
+                                                <rect key="frame" x="20" y="6829" width="374" height="83"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="83" id="apv-7A-1WK"/>
@@ -632,10 +641,10 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4q-dD-WmO">
-                                                <rect key="frame" x="22" y="0.0" width="370" height="1000"/>
+                                                <rect key="frame" x="22" y="0.0" width="370" height="6500"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="370" id="0YR-Dm-GDn"/>
-                                                    <constraint firstAttribute="height" constant="1000" id="sMf-lM-lTz"/>
+                                                    <constraint firstAttribute="height" constant="6500" id="sMf-lM-lTz"/>
                                                 </constraints>
                                                 <mutableString key="text">Terms and Conditions
 Last updated: ​(add date)
@@ -669,7 +678,7 @@ We have no control over, and assumes no responsibility for the content, privacy 
                                             <constraint firstItem="C4q-dD-WmO" firstAttribute="top" secondItem="FC1-zH-sWj" secondAttribute="top" id="ZKc-Qj-QC0"/>
                                             <constraint firstAttribute="trailing" secondItem="fWh-Cp-l7f" secondAttribute="trailing" constant="20" id="i4m-F3-4Uo"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fWh-Cp-l7f" secondAttribute="trailing" id="l0X-JA-YJy"/>
-                                            <constraint firstAttribute="height" constant="1500" id="sLx-AN-hbw"/>
+                                            <constraint firstAttribute="height" constant="7000" id="sLx-AN-hbw"/>
                                             <constraint firstItem="C4q-dD-WmO" firstAttribute="centerX" secondItem="FC1-zH-sWj" secondAttribute="centerX" id="u5b-ch-ln9"/>
                                             <constraint firstItem="fWh-Cp-l7f" firstAttribute="leading" secondItem="FC1-zH-sWj" secondAttribute="leading" constant="20" id="xef-uC-XSg"/>
                                             <constraint firstItem="fWh-Cp-l7f" firstAttribute="centerX" secondItem="FC1-zH-sWj" secondAttribute="centerX" id="yQ3-hi-vYc"/>
@@ -695,11 +704,11 @@ We have no control over, and assumes no responsibility for the content, privacy 
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lub-tV-OTm"/>
                     </view>
-                    <size key="freeformSize" width="414" height="1500"/>
+                    <size key="freeformSize" width="414" height="7000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJz-2y-nXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4411" y="-469"/>
+            <point key="canvasLocation" x="4616" y="-471"/>
         </scene>
     </scenes>
 </document>
