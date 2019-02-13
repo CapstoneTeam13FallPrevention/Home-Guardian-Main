@@ -179,72 +179,6 @@
             </objects>
             <point key="canvasLocation" x="693.60000000000002" y="-206.44677661169416"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Ndn-a8-WxD">
-            <objects>
-                <viewController id="B7T-BE-1hc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="B36-UH-axJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXE-pi-vnn">
-                                <rect key="frame" x="29" y="83" width="48" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jI-DL-MBg">
-                                <rect key="frame" x="29" y="128" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67M-07-YUf">
-                                <rect key="frame" x="29" y="179" width="71" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5G-cH-1fr">
-                                <rect key="frame" x="29" y="231" width="83" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYz-zC-cVo">
-                                <rect key="frame" x="29" y="295" width="94" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cu8-zI-oje">
-                                <rect key="frame" x="29" y="362" width="106" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tab-mR-bxD">
-                                <rect key="frame" x="29" y="434" width="119" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="C7B-jK-THX"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eCd-UP-Mhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="604" y="-1190"/>
-        </scene>
         <!--User Survey Part 1-->
         <scene sceneID="lWL-1J-RaV">
             <objects>
@@ -277,7 +211,7 @@
                                                     <constraint firstAttribute="width" constant="370" id="FEm-bK-4lO"/>
                                                     <constraint firstAttribute="height" constant="8000" id="y71-Xm-dal"/>
                                                 </constraints>
-                                                <mutableString key="text">Floors: Look at the floor in each room.  When you walk through a room, do you have to walk around furniture?  - Ask someone to move the furniture so your path is clear.  Do you have throw rugs on the floor?  - Remove the rugs or use double-sided tape or a non-slip backing so the rugs won't slip.  Are there papers, books, towels, shoes, magazines, boxes, blankets, or other objects on the floor?  - Pick up things that are on the floor. Always keep objects off the floor.  Do you have to walk over or around wires or cords (like lamp, telephone, or extension cords)?  - Coil or tape cords and wires next to the wall so you can't trip over them. If needed, have an electrician put in another outlet.  Stairs and Steps: Look at the stairs you use both inside and outside your home.  Are there papers, shoes, boxes, or other objects on the stairs?  - Pick up things on the stairs. Always keep objects off stairs.  Are some steps broken or uneven?  - Fix loose or uneven steps.  Are you missing a light over the stairway?  - Have an electrician put in an overhead light at the top and bottom of the stairs.  Do you have only one light switch for your stairs (only at the top or at the bottom of the stairs)?  - Have an electrician put in a light switch at the top and bottom of the stairs. You can get light switches that glow.  Has the stairway light bulb burned out?  - Have a friend or family member change the light bulb.  Is the carpet on the steps loose or torn?  - Make sure the carpet is firmly attached to every step, or remove the carpet and attach non-slip rubber treads to the stairs.  Are the handrails loose or broken? Is there a handrail on only one side of the stairs?  - Fix loose handrails or put in new ones. Make sure handrails are on both sides of the stairs and are as long as the stairs.</mutableString>
+                                                <string key="text">Floors: Look at the floor in each room.  When you walk through a room, do you have to walk around furniture?  - Ask someone to move the furniture so your path is clear.  Do you have throw rugs on the floor?  - Remove the rugs or use double-sided tape or a non-slip backing so the rugs won't slip.  Are there papers, books, towels, shoes, magazines, boxes, blankets, or other objects on the floor?  - Pick up things that are on the floor. Always keep objects off the floor.  Do you have to walk over or around wires or cords (like lamp, telephone, or extension cords)?  - Coil or tape cords and wires next to the wall so you can't trip over them. If needed, have an electrician put in another outlet.  Stairs and Steps: Look at the stairs you use both inside and outside your home.  Are there papers, shoes, boxes, or other objects on the stairs?  - Pick up things on the stairs. Always keep objects off stairs.  Are some steps broken or uneven?  - Fix loose or uneven steps.  Are you missing a light over the stairway?  - Have an electrician put in an overhead light at the top and bottom of the stairs.  Do you have only one light switch for your stairs (only at the top or at the bottom of the stairs)?  - Have an electrician put in a light switch at the top and bottom of the stairs. You can get light switches that glow.  Has the stairway light bulb burned out?  - Have a friend or family member change the light bulb.  Is the carpet on the steps loose or torn?  - Make sure the carpet is firmly attached to every step, or remove the carpet and attach non-slip rubber treads to the stairs.  Are the handrails loose or broken? Is there a handrail on only one side of the stairs?  - Fix loose handrails or put in new ones. Make sure handrails are on both sides of the stairs and are as long as the stairs.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -430,7 +364,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWD-Se-NEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2733.5999999999999" y="647.22638680659679"/>
+            <point key="canvasLocation" x="-164" y="881"/>
         </scene>
         <!--Patient Information Option-->
         <scene sceneID="res-F0-W5W">
@@ -485,7 +419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDG-Gj-2TT" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4528.985507246377" y="645.6521739130435"/>
+            <point key="canvasLocation" x="1631" y="879"/>
         </scene>
         <!--Clinic Information - Patient-->
         <scene sceneID="eHK-om-Sy2">
@@ -674,7 +608,7 @@
                                                     <constraint firstAttribute="width" constant="370" id="1rH-m4-dfE"/>
                                                     <constraint firstAttribute="height" constant="8000" id="q7I-vc-Nlf"/>
                                                 </constraints>
-                                                <mutableString key="text">Kitchen: Look at your kitchen and eating area.  Are the things you use often on high shelves?  - Move items in your cabinets. Keep things you use often on the lower shelves (about waist level).  Is your step stool unsteady?  - If you must use a step stool, get one with a bar to hold on to. Never use a chair as a step stool.  Bathrooms: Look at all your bathrooms.  Is the tub or shower floor slippery?  - Put a non-slip rubber mat or self stick strips on the floor of the tub or shower.  Do you need some support when you get in and out of the tub or up from the toiler?  - Have grab bars put in next to and inside the tub and next to the toilet.  Bedrooms: Look at all your bedrooms.  Is the light near the bed hard to reach?  - Place a lamp close to the bed where it's easy to reach.  Is the path from your bed to the bathroom dark?  - Put in a night-light so you can see where you're walking. Some night-lights go on by themselves after dark.  Other Things you can do to Prevent Falls  - Do exercises that improve your balance and make your legs stronger. Exercise also helps you feel better and more confident.  - Have your doctor or pharmacist look at all the medications you take, even over-the-counter medicines. Some medicines can make you sleepy or dizzy.  - Have your eyes checked by an eye doctor at least once a year and update your glasses.  - Get up slowly after you sit or lie down.  - Wear shoes both inside and outside the house. Avoid going barefoot or wearing slippers.  - Improve the lighting in your home. Put in brighter light bulbs. Fluorescent bulbs are bright and cost less to use.  - It's safest to have uniform lighting in a room. Add lighting to dark areas. Hang lightweight curtains or shades to reduce glare.  - Paint a contrasting color on the top edge of all steps so you can see the stairs better. For esample, use a light color paint on dark wood.</mutableString>
+                                                <string key="text">Kitchen: Look at your kitchen and eating area.  Are the things you use often on high shelves?  - Move items in your cabinets. Keep things you use often on the lower shelves (about waist level).  Is your step stool unsteady?  - If you must use a step stool, get one with a bar to hold on to. Never use a chair as a step stool.  Bathrooms: Look at all your bathrooms.  Is the tub or shower floor slippery?  - Put a non-slip rubber mat or self stick strips on the floor of the tub or shower.  Do you need some support when you get in and out of the tub or up from the toiler?  - Have grab bars put in next to and inside the tub and next to the toilet.  Bedrooms: Look at all your bedrooms.  Is the light near the bed hard to reach?  - Place a lamp close to the bed where it's easy to reach.  Is the path from your bed to the bathroom dark?  - Put in a night-light so you can see where you're walking. Some night-lights go on by themselves after dark.  Other Things you can do to Prevent Falls  - Do exercises that improve your balance and make your legs stronger. Exercise also helps you feel better and more confident.  - Have your doctor or pharmacist look at all the medications you take, even over-the-counter medicines. Some medicines can make you sleepy or dizzy.  - Have your eyes checked by an eye doctor at least once a year and update your glasses.  - Get up slowly after you sit or lie down.  - Wear shoes both inside and outside the house. Avoid going barefoot or wearing slippers.  - Improve the lighting in your home. Put in brighter light bulbs. Fluorescent bulbs are bright and cost less to use.  - It's safest to have uniform lighting in a room. Add lighting to dark areas. Hang lightweight curtains or shades to reduce glare.  - Paint a contrasting color on the top edge of all steps so you can see the stairs better. For esample, use a light color paint on dark wood.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -750,7 +684,7 @@
                                                     <constraint firstAttribute="width" constant="370" id="CZY-1s-lZJ"/>
                                                     <constraint firstAttribute="height" constant="1000" id="OJT-Id-QAp"/>
                                                 </constraints>
-                                                <string key="text">Other Safety Tips  - Keep emergency numbers in large print near each phone.  - Put a phone near the floor in case you fall and can't get up.  - Think about waering an alarm device that will bring help in case you fall and can't get up.</string>
+                                                <string key="text">Other Safety Tips  - Keep emergency numbers in large print near each phone.  - Put a phone near the floor in case you fall and can't get up.  - Think about wearing an alarm device that will bring help in case you fall and can't get up.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -816,6 +750,9 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <state key="normal" title="I Understand"/>
+                                                <connections>
+                                                    <segue destination="JCh-bz-2ue" kind="show" id="YT6-Ib-TZd"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awaiting new text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2g-Zn-hYp">
                                                 <rect key="frame" x="22" y="0.0" width="370" height="1000"/>
@@ -865,6 +802,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ghq-XL-ppU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8299" y="-470"/>
+        </scene>
+        <!--Camera Controller-->
+        <scene sceneID="teD-Se-bX7">
+            <objects>
+                <viewController title="Camera Controller" id="JCh-bz-2ue" customClass="CameraController" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OQX-AK-Lgv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojp-Dg-QxR">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JbP-KQ-wVx"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="camera" id="jIj-hC-25W"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WUG-Vj-C46" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9214" y="-470"/>
         </scene>
         <!--User Agreement-->
         <scene sceneID="XEb-KG-Hue">
@@ -1014,7 +976,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDh-2a-jCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3627" y="1022"/>
+            <point key="canvasLocation" x="728" y="1256"/>
         </scene>
     </scenes>
 </document>
