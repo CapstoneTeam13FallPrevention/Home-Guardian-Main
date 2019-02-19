@@ -10,6 +10,7 @@
 		058F95602213BFAC0020519E /* PatientInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F955E2213BFAC0020519E /* PatientInterface.storyboard */; };
 		058F95622213C0010020519E /* TherapistInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F95612213C0010020519E /* TherapistInterface.storyboard */; };
 		058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F9563221C31D50020519E /* CameraAndPhotoManager.swift */; };
+		058F9566221C41050020519E /* UserAgreementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F9565221C41040020519E /* UserAgreementController.swift */; };
 		0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DF9921F3883500A4EC03 /* AppDelegate.swift */; };
 		0591DF9C21F3883500A4EC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DF9B21F3883500A4EC03 /* ViewController.swift */; };
 		0591DF9F21F3883500A4EC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DF9D21F3883500A4EC03 /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		0591DFB221F3883800A4EC03 /* Home_GuardianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */; };
 		0591DFBD21F3883800A4EC03 /* Home_GuardianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */; };
 		05EFC20221F7B2F9006B734F /* PatientBegin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EFC20121F7B2F9006B734F /* PatientBegin.swift */; };
-		05F65935221395E200677A51 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F65934221395E200677A51 /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 		058F955F2213BFAC0020519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Home Guardian/Base.lproj/PatientInterface.storyboard"; sourceTree = "<group>"; };
 		058F95612213C0010020519E /* TherapistInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TherapistInterface.storyboard; sourceTree = "<group>"; };
 		058F9563221C31D50020519E /* CameraAndPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAndPhotoManager.swift; sourceTree = "<group>"; };
+		058F9565221C41040020519E /* UserAgreementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementController.swift; sourceTree = "<group>"; };
 		0591DF9621F3883500A4EC03 /* Home Guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Guardian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DF9921F3883500A4EC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0591DF9B21F3883500A4EC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianUITests.swift; sourceTree = "<group>"; };
 		0591DFBE21F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05EFC20121F7B2F9006B734F /* PatientBegin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientBegin.swift; sourceTree = "<group>"; };
-		05F65934221395E200677A51 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +113,10 @@
 				0591DF9D21F3883500A4EC03 /* Main.storyboard */,
 				058F95612213C0010020519E /* TherapistInterface.storyboard */,
 				058F955E2213BFAC0020519E /* PatientInterface.storyboard */,
+				058F9565221C41040020519E /* UserAgreementController.swift */,
 				058F9563221C31D50020519E /* CameraAndPhotoManager.swift */,
 				0591DF9921F3883500A4EC03 /* AppDelegate.swift */,
 				0591DF9B21F3883500A4EC03 /* ViewController.swift */,
-				05F65934221395E200677A51 /* CameraController.swift */,
 				05EFC20121F7B2F9006B734F /* PatientBegin.swift */,
 				0591DFA321F3883800A4EC03 /* Assets.xcassets */,
 				0591DFA821F3883800A4EC03 /* Info.plist */,
@@ -281,7 +281,7 @@
 				0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */,
 				058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */,
 				05EFC20221F7B2F9006B734F /* PatientBegin.swift in Sources */,
-				05F65935221395E200677A51 /* CameraController.swift in Sources */,
+				058F9566221C41050020519E /* UserAgreementController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
