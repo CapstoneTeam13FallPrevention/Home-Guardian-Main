@@ -505,7 +505,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DISCLAIMER!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SP-nE-vBl">
-                                <rect key="frame" x="54" y="64" width="267" height="54"/>
+                                <rect key="frame" x="55" y="64" width="265.5" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -533,11 +533,12 @@
                             <constraint firstItem="eof-Sf-r5E" firstAttribute="trailing" secondItem="yKa-LR-xY2" secondAttribute="trailing" constant="68" id="Sn4-sQ-UJN"/>
                             <constraint firstItem="yKa-LR-xY2" firstAttribute="top" secondItem="8SP-nE-vBl" secondAttribute="bottom" constant="8" symbolic="YES" id="T26-Z7-g0G"/>
                             <constraint firstItem="XDA-dG-4ji" firstAttribute="leading" secondItem="5eX-qm-Olc" secondAttribute="leading" id="YuN-6c-oqy"/>
+                            <constraint firstItem="8SP-nE-vBl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eof-Sf-r5E" secondAttribute="leading" id="bxv-ym-oPf"/>
                             <constraint firstItem="eof-Sf-r5E" firstAttribute="trailing" secondItem="k9N-zm-naz" secondAttribute="trailing" constant="20" id="nt9-aE-C9S"/>
                             <constraint firstItem="yKa-LR-xY2" firstAttribute="leading" secondItem="eof-Sf-r5E" secondAttribute="leading" constant="68" id="pJo-av-rlr"/>
                             <constraint firstItem="yKa-LR-xY2" firstAttribute="centerX" secondItem="8SP-nE-vBl" secondAttribute="centerX" id="pcu-az-TWs"/>
                             <constraint firstAttribute="bottom" secondItem="k9N-zm-naz" secondAttribute="bottom" constant="20" symbolic="YES" id="wKL-Fg-ysQ"/>
-                            <constraint firstItem="eof-Sf-r5E" firstAttribute="trailing" secondItem="8SP-nE-vBl" secondAttribute="trailing" constant="54" id="yTX-6X-HRF"/>
+                            <constraint firstItem="eof-Sf-r5E" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8SP-nE-vBl" secondAttribute="trailing" id="yTX-6X-HRF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eof-Sf-r5E"/>
                     </view>
@@ -567,6 +568,14 @@
                                     <action selector="chooseImage:" destination="j3m-ra-pcJ" eventType="touchUpInside" id="FVc-2g-gWj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0O-30-IJH">
+                                <rect key="frame" x="271" y="637" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="tN4-zo-CCG" kind="show" id="oEx-AN-2OB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GAs-hN-Rwt"/>
@@ -580,15 +589,15 @@
             </objects>
             <point key="canvasLocation" x="10247" y="-470"/>
         </scene>
-        <!--View Controller-->
+        <!--Upload-->
         <scene sceneID="SX4-iY-X8N">
             <objects>
-                <viewController id="tN4-zo-CCG" sceneMemberID="viewController">
+                <viewController title="Upload" id="tN4-zo-CCG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l8h-ee-hCY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sy9-2l-Zqw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sy9-2l-Zqw">
                                 <rect key="frame" x="20" y="564" width="335" height="83"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -600,14 +609,33 @@
                                     <segue destination="WR6-3P-X0h" kind="show" id="xsb-IE-FzB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tut-2V-prd">
+                                <rect key="frame" x="20" y="185" width="335" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="239" id="poG-As-sKH"/>
+                                </constraints>
+                                <string key="text">Placeholder for Successful
+Upload Notification</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Sy9-2l-Zqw" secondAttribute="bottom" constant="20" symbolic="YES" id="0lh-3W-wA8"/>
+                            <constraint firstItem="Tut-2V-prd" firstAttribute="top" secondItem="z7X-sC-mlY" secondAttribute="top" constant="121" id="58m-6l-fFm"/>
+                            <constraint firstItem="Tut-2V-prd" firstAttribute="leading" secondItem="z7X-sC-mlY" secondAttribute="leading" constant="20" id="GMc-Gk-pZs"/>
+                            <constraint firstItem="Sy9-2l-Zqw" firstAttribute="leading" secondItem="z7X-sC-mlY" secondAttribute="leading" constant="20" id="g52-vz-OTR"/>
+                            <constraint firstItem="z7X-sC-mlY" firstAttribute="trailing" secondItem="Sy9-2l-Zqw" secondAttribute="trailing" constant="20" id="gHx-Gu-OiA"/>
+                            <constraint firstItem="z7X-sC-mlY" firstAttribute="trailing" secondItem="Tut-2V-prd" secondAttribute="trailing" constant="20" id="x4c-GZ-dQ0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="z7X-sC-mlY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jk5-8j-8HW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10988" y="-471"/>
+            <point key="canvasLocation" x="10988" y="-471.8140929535233"/>
         </scene>
         <!--mainmenu-->
         <scene sceneID="juS-bq-rvW">
@@ -637,9 +665,8 @@
                                     <segue destination="ebh-KQ-How" kind="show" id="c1z-yy-O5W"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9u-cu-RFe">
-                                <rect key="frame" x="27" y="297" width="320" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9u-cu-RFe">
+                                <rect key="frame" x="20" y="297.5" width="335" height="72"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="View Sections"/>
@@ -647,9 +674,8 @@
                                     <action selector="userAgreementPopUp:" destination="frZ-We-6Wr" eventType="touchUpInside" id="JE7-gz-Rc4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Agreement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i64-A5-DYd">
-                                <rect key="frame" x="35" y="72" width="312" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Agreement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i64-A5-DYd">
+                                <rect key="frame" x="20" y="72" width="335" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -660,8 +686,14 @@
                             <constraint firstAttribute="bottom" secondItem="fWh-Cp-l7f" secondAttribute="bottom" constant="35" id="Av1-v7-x0I"/>
                             <constraint firstItem="fWh-Cp-l7f" firstAttribute="centerX" secondItem="GnF-d4-xUb" secondAttribute="centerX" id="LIW-wG-awT"/>
                             <constraint firstItem="fWh-Cp-l7f" firstAttribute="leading" secondItem="GnF-d4-xUb" secondAttribute="leading" constant="20" id="OII-Ir-xuN"/>
+                            <constraint firstItem="i64-A5-DYd" firstAttribute="leading" secondItem="2h7-fq-0qW" secondAttribute="leading" constant="20" id="XzA-fz-RHb"/>
                             <constraint firstItem="fWh-Cp-l7f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GnF-d4-xUb" secondAttribute="leading" id="a01-q1-G59"/>
+                            <constraint firstItem="2h7-fq-0qW" firstAttribute="trailing" secondItem="i64-A5-DYd" secondAttribute="trailing" constant="20" id="cUw-mG-TAz"/>
+                            <constraint firstItem="i64-A5-DYd" firstAttribute="top" secondItem="2h7-fq-0qW" secondAttribute="top" constant="52" id="czO-H3-Gxa"/>
                             <constraint firstAttribute="trailing" secondItem="fWh-Cp-l7f" secondAttribute="trailing" constant="20" id="fkx-TC-oa5"/>
+                            <constraint firstItem="B9u-cu-RFe" firstAttribute="leading" secondItem="2h7-fq-0qW" secondAttribute="leading" constant="20" id="rDv-G5-VmK"/>
+                            <constraint firstItem="B9u-cu-RFe" firstAttribute="centerY" secondItem="GnF-d4-xUb" secondAttribute="centerY" id="uGS-86-VmC"/>
+                            <constraint firstItem="2h7-fq-0qW" firstAttribute="trailing" secondItem="B9u-cu-RFe" secondAttribute="trailing" constant="20" id="wci-O9-Ftb"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fWh-Cp-l7f" secondAttribute="trailing" id="wpt-AH-dGy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2h7-fq-0qW"/>
@@ -669,7 +701,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzL-dU-IVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5676" y="-1554"/>
+            <point key="canvasLocation" x="5676" y="-1554.872563718141"/>
         </scene>
         <!--Terms and Conditions-->
         <scene sceneID="qNg-4K-Jb2">
@@ -703,7 +735,7 @@
                                                     <constraint firstAttribute="height" constant="7800" id="kr4-pE-xdm"/>
                                                     <constraint firstAttribute="width" constant="370" id="sDI-X3-Zvd"/>
                                                 </constraints>
-                                                <mutableString key="text">Terms and Conditions
+                                                <string key="text">Terms and Conditions
 Last updated: ​(add date)
 
 Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using Home Guardian ​mobile application operated by ​Home Guardian​ ("us", "we", or "our").
@@ -731,7 +763,7 @@ We reserve the right, at our sole discretion, to modify or replace these Terms a
 
 
 Contact Us
-If you have any questions about these Terms, please contact us by email: TBD.</mutableString>
+If you have any questions about these Terms, please contact us by email: TBD.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -807,7 +839,7 @@ If you have any questions about these Terms, please contact us by email: TBD.</m
                                                     <constraint firstAttribute="width" constant="370" id="0Aw-0Y-k4Q"/>
                                                     <constraint firstAttribute="height" constant="7500" id="47Y-Nf-V2b"/>
                                                 </constraints>
-                                                <mutableString key="text">Privacy Policy
+                                                <string key="text">Privacy Policy
 Effective date: March 18th, 2019
 Welcome to Home Guardian (“Home Guardian”, "us", "we", or "our"). Home Guardian provides easy-to-use services to help in preventing falls in your home
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use the app and the choices you have associated with that data. Our Privacy Policy for Home Guardian is created with the help of the Privacy Policies website.
@@ -833,7 +865,7 @@ To provide customer care and support.
 To provide analysis or valuable information so that we can improve our set of services.
 To monitor the usage of the app.
 To detect, prevent and address technical issues.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -909,12 +941,12 @@ To detect, prevent and address technical issues.
                                                     <constraint firstAttribute="width" constant="370" id="j2y-ru-kOu"/>
                                                     <constraint firstAttribute="height" constant="4300" id="jg9-O6-0V9"/>
                                                 </constraints>
-                                                <mutableString key="text">Disclaimer/Liability
+                                                <string key="text">Disclaimer/Liability
 We accept no responsibility for any technical failure of the internet and/or the app: or any damage or injury to users or their equipment as a result of or relating to their use of the app. When using this app, it is the user’s responsibility to get assistance if help is needed. We are not liable for any harm that comes to the user while using this app. This app was designed to help reduce the risk to potential falls in the home. However, if a fall is to occur after this app has been used and the therapist has reviewed the photos and send their corrections to the patient, we do not accept responsibility for the fall or harm of any kind. 
 
 Accuracy
 Home Guardian has worked hard to ensure the accuracy of the device through its services through this mobile application. Although we aim to reduce the risk of potential falls in your home, our services do not guarantee that the risk of falling in your home will be completely eliminated. Home guardian seeks to decrease your risk of falling based on the information you provide. This app was created to make your home safer without the need of a therapist coming to you home. However, whether the results are for the better depends on the quality of photos you provide as well as if you take the advice given to you. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -990,7 +1022,7 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                                                     <constraint firstAttribute="height" constant="6000" id="2kV-lL-OL7"/>
                                                     <constraint firstAttribute="width" constant="370" id="Y7T-5a-0kl"/>
                                                 </constraints>
-                                                <mutableString key="text">Transfer of Data
+                                                <string key="text">Transfer of Data
 Your information, including personal data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
 If you are located outside United States and choose to provide information to us, please note that we transfer the data, including personal data, to United States and process it there.
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
@@ -1007,7 +1039,7 @@ Security of Data
 The security of your data is important to us but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.
 Service Providers
 We may employ third party companies and individuals to facilitate app, to provide our services on our behalf, to perform app-related services or to assist us in analyzing how the app is used.
-These third parties have access to your personal data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</mutableString>
+These third parties have access to your personal data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1083,7 +1115,7 @@ These third parties have access to your personal data only to perform these task
                                                     <constraint firstAttribute="width" constant="370" id="UZR-oa-5b6"/>
                                                     <constraint firstAttribute="height" constant="4000" id="wMA-sm-JAc"/>
                                                 </constraints>
-                                                <mutableString key="text">Children's Privacy
+                                                <string key="text">Children's Privacy
 Home Guardian does not address anyone under the age of 18 ("Children").
 We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with personal data, please contact us. If we become aware that we have collected personal data from children without verification of parental consent, we take steps to remove that information from our servers.
 Changes To This Privacy Policy
@@ -1093,7 +1125,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 Contact Us
 If you have any questions about this Privacy Policy, please contact us:
-By email: TBD</mutableString>
+By email: TBD</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
