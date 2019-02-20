@@ -27,21 +27,21 @@ class UserAgreementController: UIViewController {
         
         actionSheet.addAction(UIAlertAction(title: "Privacy Policy Part 1", style: .default, handler: { (action:UIAlertAction) in
             
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "pp1") as! UserAgreementSections
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "ppa") as! UserAgreementSections
             self.present(vc, animated: true, completion: nil)
             
         }))
         
         actionSheet.addAction(UIAlertAction(title: "Privacy Policy Part 2", style: .default, handler: { (action:UIAlertAction) in
             
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "pp2") as! UserAgreementSections
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "ppb") as! UserAgreementSections
             self.present(vc, animated: true, completion: nil)
             
         }))
         
         actionSheet.addAction(UIAlertAction(title: "Privacy Policy Part 3", style: .default, handler: { (action:UIAlertAction) in
             
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "pp3") as! UserAgreementSections
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "ppc") as! UserAgreementSections
             self.present(vc, animated: true, completion: nil)
             
         }))

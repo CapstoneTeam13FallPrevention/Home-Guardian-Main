@@ -19,15 +19,16 @@ class UserAgreementSections: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func pp1Back(_ sender: Any) {
+    @IBAction func ppaBack(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    @IBAction func pp2Back(_ sender: Any) {
+    @IBAction func ppbBack(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    @IBAction func pp3Back(_ sender: Any) {
+    @IBAction func ppcBack(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
     
     @IBAction func dscBack(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

@@ -567,14 +567,6 @@
                                     <action selector="chooseImage:" destination="j3m-ra-pcJ" eventType="touchUpInside" id="FVc-2g-gWj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBb-Th-geO">
-                                <rect key="frame" x="265" y="637" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" title="Done"/>
-                                <connections>
-                                    <action selector="chooseImage:" destination="j3m-ra-pcJ" eventType="touchUpInside" id="xwk-wC-ZUk"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GAs-hN-Rwt"/>
@@ -595,6 +587,20 @@
                     <view key="view" contentMode="scaleToFill" id="l8h-ee-hCY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sy9-2l-Zqw">
+                                <rect key="frame" x="20" y="564" width="335" height="83"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="kql-Vk-UvS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="Finish"/>
+                                <connections>
+                                    <segue destination="WR6-3P-X0h" kind="show" id="xsb-IE-FzB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="z7X-sC-mlY"/>
                     </view>
@@ -602,6 +608,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jk5-8j-8HW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10988" y="-471"/>
+        </scene>
+        <!--mainmenu-->
+        <scene sceneID="juS-bq-rvW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="mainmenu" id="WR6-3P-X0h" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5z-pQ-CEE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11582" y="-759"/>
         </scene>
         <!--User Agreement-->
         <scene sceneID="dc5-1m-JGf">
@@ -633,6 +647,13 @@
                                     <action selector="userAgreementPopUp:" destination="frZ-We-6Wr" eventType="touchUpInside" id="JE7-gz-Rc4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Agreement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i64-A5-DYd">
+                                <rect key="frame" x="35" y="72" width="312" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -754,10 +775,10 @@ If you have any questions about these Terms, please contact us by email: TBD.</m
             </objects>
             <point key="canvasLocation" x="5645" y="2635"/>
         </scene>
-        <!--Privacy Policy-->
+        <!--Privacy Policy 1-->
         <scene sceneID="tXU-dt-ABA">
             <objects>
-                <viewController storyboardIdentifier="pp1" title="Privacy Policy" id="HhM-XQ-xjo" customClass="UserAgreementSections" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ppa" title="Privacy Policy 1" id="HhM-XQ-xjo" customClass="UserAgreementSections" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BZ4-C5-IK0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="7700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -777,7 +798,7 @@ If you have any questions about these Terms, please contact us by email: TBD.</m
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <state key="normal" title="Back"/>
                                                 <connections>
-                                                    <action selector="ppBack:" destination="HhM-XQ-xjo" eventType="touchUpInside" id="TWS-fX-hLx"/>
+                                                    <action selector="ppaBack:" destination="HhM-XQ-xjo" eventType="touchUpInside" id="4yl-RS-NMK"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c69-ED-lxa">
@@ -937,10 +958,10 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
             </objects>
             <point key="canvasLocation" x="4890" y="1061"/>
         </scene>
-        <!--Privacy Policy-->
+        <!--Privacy Policy 2-->
         <scene sceneID="7Lt-Av-3dA">
             <objects>
-                <viewController storyboardIdentifier="pp2" title="Privacy Policy" id="eSS-Jj-hYK" customClass="UserAgreementSections" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ppb" title="Privacy Policy 2" id="eSS-Jj-hYK" customClass="UserAgreementSections" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bdq-1C-asv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="6200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -960,8 +981,7 @@ Home Guardian has worked hard to ensure the accuracy of the device through its s
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <state key="normal" title="Back"/>
                                                 <connections>
-                                                    <action selector="pp2Back:" destination="eSS-Jj-hYK" eventType="touchUpInside" id="9rj-hy-0hA"/>
-                                                    <action selector="ppBack:" destination="eSS-Jj-hYK" eventType="touchUpInside" id="xXe-9B-KfC"/>
+                                                    <action selector="ppbBack:" destination="eSS-Jj-hYK" eventType="touchUpInside" id="INs-GI-lAo"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWh-tF-yZ6">
@@ -1031,10 +1051,10 @@ These third parties have access to your personal data only to perform these task
             </objects>
             <point key="canvasLocation" x="3440" y="1823"/>
         </scene>
-        <!--Privacy Policy-->
+        <!--Privacy Policy 3-->
         <scene sceneID="GRC-oi-D7h">
             <objects>
-                <viewController storyboardIdentifier="pp3" title="Privacy Policy" id="kO0-bw-07T" customClass="UserAgreementSections" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ppc" title="Privacy Policy 3" id="kO0-bw-07T" customClass="UserAgreementSections" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3KF-4P-f9I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="4200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1054,8 +1074,7 @@ These third parties have access to your personal data only to perform these task
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <state key="normal" title="Back"/>
                                                 <connections>
-                                                    <action selector="pp3Back:" destination="kO0-bw-07T" eventType="touchUpInside" id="vPg-ea-QO9"/>
-                                                    <action selector="ppBack:" destination="kO0-bw-07T" eventType="touchUpInside" id="86N-nA-V2P"/>
+                                                    <action selector="ppcBack:" destination="kO0-bw-07T" eventType="touchUpInside" id="Jbt-N1-5w8"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvB-bO-fgo">
