@@ -16,23 +16,46 @@ class UserAgreementController: UIViewController {
     }
     
     @IBAction func userAgreementPopUp(_ sender: Any) {
-         let actionSheet = UIAlertController(title: "User Agreement", message: "Choose part to view", preferredStyle: . actionSheet)
-         
-         actionSheet.addAction(UIAlertAction(title: "Terms and Conditions", style: .default, handler: { (action:UIAlertAction) in
-         
-         }))
-         
-         actionSheet.addAction(UIAlertAction(title: "Privacy Policy", style: .default, handler: { (action:UIAlertAction) in
-
-         }))
-         
-         actionSheet.addAction(UIAlertAction(title: "Disclaimer/Liability", style: .default, handler: { (action:UIAlertAction) in
-
-         }))
-         
-         actionSheet.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
-         
-         self.present(actionSheet, animated: true, completion: nil)
+        let actionSheet = UIAlertController(title: "User Agreement", message: "Choose part to view", preferredStyle: . actionSheet)
+        
+        actionSheet.addAction(UIAlertAction(title: "Terms and Conditions", style: .default, handler: { (action:UIAlertAction) in
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tac") as! UserAgreementSections
+            self.present(vc, animated: true, completion: nil)
+            
+        }))
+        
+        actionSheet.addAction(UIAlertAction(title: "Privacy Policy Part 1", style: .default, handler: { (action:UIAlertAction) in
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "pp1") as! UserAgreementSections
+            self.present(vc, animated: true, completion: nil)
+            
+        }))
+        
+        actionSheet.addAction(UIAlertAction(title: "Privacy Policy Part 2", style: .default, handler: { (action:UIAlertAction) in
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "pp2") as! UserAgreementSections
+            self.present(vc, animated: true, completion: nil)
+            
+        }))
+        
+        actionSheet.addAction(UIAlertAction(title: "Privacy Policy Part 3", style: .default, handler: { (action:UIAlertAction) in
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "pp3") as! UserAgreementSections
+            self.present(vc, animated: true, completion: nil)
+            
+        }))
+        
+        actionSheet.addAction(UIAlertAction(title: "Disclaimer/Liability", style: .default, handler: { (action:UIAlertAction) in
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "dsc") as! UserAgreementSections
+            self.present(vc, animated: true, completion: nil)
+            
+        }))
+        
+        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
+        
+        self.present(actionSheet, animated: true, completion: nil)
     }
     
 }

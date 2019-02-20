@@ -11,6 +11,8 @@
 		058F95622213C0010020519E /* TherapistInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F95612213C0010020519E /* TherapistInterface.storyboard */; };
 		058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F9563221C31D50020519E /* CameraAndPhotoManager.swift */; };
 		058F9566221C41050020519E /* UserAgreementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F9565221C41040020519E /* UserAgreementController.swift */; };
+		058F956C221DA85A0020519E /* Disclaimer-Symbol-Free-Download-PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 058F956B221DA85A0020519E /* Disclaimer-Symbol-Free-Download-PNG.png */; };
+		058F956E221DB3700020519E /* UserAgreementSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F956D221DB3700020519E /* UserAgreementSections.swift */; };
 		0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DF9921F3883500A4EC03 /* AppDelegate.swift */; };
 		0591DF9C21F3883500A4EC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DF9B21F3883500A4EC03 /* ViewController.swift */; };
 		0591DF9F21F3883500A4EC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DF9D21F3883500A4EC03 /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		058F95612213C0010020519E /* TherapistInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TherapistInterface.storyboard; sourceTree = "<group>"; };
 		058F9563221C31D50020519E /* CameraAndPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAndPhotoManager.swift; sourceTree = "<group>"; };
 		058F9565221C41040020519E /* UserAgreementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementController.swift; sourceTree = "<group>"; };
+		058F956B221DA85A0020519E /* Disclaimer-Symbol-Free-Download-PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Disclaimer-Symbol-Free-Download-PNG.png"; path = "../../../Downloads/Disclaimer-Symbol-Free-Download-PNG.png"; sourceTree = "<group>"; };
+		058F956D221DB3700020519E /* UserAgreementSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementSections.swift; sourceTree = "<group>"; };
 		0591DF9621F3883500A4EC03 /* Home Guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Guardian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DF9921F3883500A4EC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0591DF9B21F3883500A4EC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,10 +113,12 @@
 		0591DF9821F3883500A4EC03 /* Home Guardian */ = {
 			isa = PBXGroup;
 			children = (
+				058F956B221DA85A0020519E /* Disclaimer-Symbol-Free-Download-PNG.png */,
 				0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */,
 				0591DF9D21F3883500A4EC03 /* Main.storyboard */,
 				058F95612213C0010020519E /* TherapistInterface.storyboard */,
 				058F955E2213BFAC0020519E /* PatientInterface.storyboard */,
+				058F956D221DB3700020519E /* UserAgreementSections.swift */,
 				058F9565221C41040020519E /* UserAgreementController.swift */,
 				058F9563221C31D50020519E /* CameraAndPhotoManager.swift */,
 				0591DF9921F3883500A4EC03 /* AppDelegate.swift */,
@@ -249,6 +255,7 @@
 			files = (
 				058F95602213BFAC0020519E /* PatientInterface.storyboard in Resources */,
 				0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */,
+				058F956C221DA85A0020519E /* Disclaimer-Symbol-Free-Download-PNG.png in Resources */,
 				058F95622213C0010020519E /* TherapistInterface.storyboard in Resources */,
 				0591DFA421F3883800A4EC03 /* Assets.xcassets in Resources */,
 				0591DF9F21F3883500A4EC03 /* Main.storyboard in Resources */,
@@ -280,6 +287,7 @@
 				0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */,
 				0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */,
 				058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */,
+				058F956E221DB3700020519E /* UserAgreementSections.swift in Sources */,
 				05EFC20221F7B2F9006B734F /* PatientBegin.swift in Sources */,
 				058F9566221C41050020519E /* UserAgreementController.swift in Sources */,
 			);
