@@ -13,7 +13,7 @@
         <!--Patient Information-->
         <scene sceneID="rTG-Id-bdh">
             <objects>
-                <viewController title="Patient Information" id="SNR-ha-Cr4" sceneMemberID="viewController">
+                <viewController title="Patient Information" id="SNR-ha-Cr4" customClass="PatientInputHandler" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qSN-UU-ANX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,6 +24,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="SNR-ha-Cr4" id="Y3a-mB-DxI"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Birth:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kna-FM-PO4">
                                 <rect key="frame" x="20" y="165" width="250" height="54"/>
@@ -37,6 +40,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="SNR-ha-Cr4" id="dz7-MW-3FS"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3F-Qs-9sJ">
                                 <rect key="frame" x="20" y="30" width="126" height="54"/>
@@ -68,6 +74,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="SNR-ha-Cr4" id="Wo1-t9-5ye"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -96,6 +105,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="m7T-Yd-4Eo"/>
                     </view>
+                    <connections>
+                        <outlet property="patientDOB" destination="FRU-eB-c4V" id="XcB-nW-ekL"/>
+                        <outlet property="patientName" destination="RfE-eY-MXl" id="QEe-tT-fHH"/>
+                        <outlet property="patientPasword" destination="X4G-oO-c0E" id="crm-oR-jod"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jhf-3M-fA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,7 +194,7 @@
         <!--Clinic Information - Patient-->
         <scene sceneID="eHK-om-Sy2">
             <objects>
-                <viewController title="Clinic Information - Patient" id="Gec-IW-rRh" customClass="PatientBegin" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Clinic Information - Patient" id="Gec-IW-rRh" customClass="PatientInputHandler" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eFs-IZ-hWO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,6 +269,9 @@
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="Gec-IW-rRh" id="EMK-ZT-0Io"/>
+                                                </connections>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8w-bd-nzn">
                                                 <rect key="frame" x="20" y="821" width="374" height="83"/>
@@ -322,6 +339,7 @@
                     </view>
                     <size key="freeformSize" width="414" height="1000"/>
                     <connections>
+                        <outlet property="accessCodeTextField" destination="nIS-zc-mUc" id="nWt-2L-gpC"/>
                         <outlet property="clinicDropDown" destination="gdW-UJ-eKr" id="5aJ-g8-sbW"/>
                         <outlet property="clinicTextBox" destination="vDL-iH-8jb" id="fYl-KK-59e"/>
                         <outlet property="therapistDropDown" destination="uIl-ZJ-hWw" id="Hud-QI-p12"/>
